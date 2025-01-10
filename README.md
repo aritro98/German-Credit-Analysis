@@ -63,7 +63,7 @@ The dataset is provided in the file: `data/german_credit_data(in).csv`.
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/German-Credit-Analysis.git
+   git clone https://github.com/aritro98/German-Credit-Analysis.git
    ```
 2. Navigate to the project directory:
    ```bash

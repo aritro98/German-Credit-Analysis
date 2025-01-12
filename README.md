@@ -2,8 +2,6 @@
 
 This project involves analyzing the German Credit dataset to predict credit risk (Good or Bad) using machine learning techniques. It focuses on data cleaning, exploratory data analysis (EDA), data preprocessing, clustering, and classification. The analysis aims to provide insights into the key factors affecting credit risk and improve the accuracy of credit scoring.
 
----
-
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Dataset Description](#dataset-description)
@@ -13,15 +11,11 @@ This project involves analyzing the German Credit dataset to predict credit risk
 - [Usage](#usage)
 - [Results](#results)
 
----
-
 ## Project Overview
 The goal of this project is to analyze the German Credit dataset and develop a classification model that predicts whether a credit applicant is a good or bad risk. This involves:
 - Data preprocessing and cleaning.
 - Exploratory Data Analysis (EDA) to uncover insights.
 - Building and evaluating machine learning models.
-
----
 
 ## Dataset Description
 The dataset contains information about 1,000 credit applicants, including attributes such as:
@@ -40,8 +34,6 @@ Target Variable:
 
 The dataset can be found in **Kaggle**: [German Credit Analysis || A Risk Perspective](https://www.kaggle.com/code/janiobachmann/german-credit-analysis-a-risk-perspective)
 
----
-
 ## Technologies Used
 - **Programming Language**: Python  
 - **Libraries**:  
@@ -55,8 +47,6 @@ The dataset can be found in **Kaggle**: [German Credit Analysis || A Risk Perspe
   - PCA
   - KMeans Clustering
 
----
-
 ## Key Features
 - **Exploratory Data Analysis (EDA)**: 
   - Visualize data distributions.
@@ -69,8 +59,6 @@ The dataset can be found in **Kaggle**: [German Credit Analysis || A Risk Perspe
   - Evaluation using confusion matrices, classification reports, and ROC AUC scores.
 - **Confusion Matrix Visualization**:
   - Heatmap visualization for clear interpretation of classification results.
-
----
 
 ## Installation and Setup
 1. Clone the repository:
@@ -86,8 +74,6 @@ The dataset can be found in **Kaggle**: [German Credit Analysis || A Risk Perspe
    pip install -r requirements.txt
    ```
 
----
-
 ## Usage
 1. Open the Jupyter Notebook:
    ```bash
@@ -95,12 +81,8 @@ The dataset can be found in **Kaggle**: [German Credit Analysis || A Risk Perspe
    ```
 2. Run the cells to explore the data, perform analysis, and build machine learning models.
 
----
-
 ## Results
 The project successfully identifies patterns in credit data and predicts credit risk with the following highlights:
 - **Classification Accuracy**: Achieved using a Random Forest model.
 - **Confusion Matrix**: Provides clear insights into true positives, true negatives, false positives, and false negatives.
 - **ROC AUC Score**: Indicates the model's ability to distinguish between Good and Bad credit risk.
-
----
